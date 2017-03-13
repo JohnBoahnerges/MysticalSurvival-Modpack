@@ -8,11 +8,11 @@
       "guide": true,
       "toggle": {
         "night": true,
-        "gamemode": true,
-        "day": true,
+        "gamemode": false,
+        "day": false,
         "rain": true
       },
-      "heal": true,
+      "heal": false,
       "trash_can": true,
       "server_info": true,
       "shop": true,
