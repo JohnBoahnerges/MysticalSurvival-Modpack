@@ -1,0 +1,6 @@
+1) Open Curse and navigate to your Minecraft tab.
+2) Click "Create Custom Profile"
+3) Choose to import a previously exported profile. (As per here: http://i.imgur.com/pNPGj4C.png)
+4) Press play and have fun!
+
+(If you have issues launching, playing, etc, feel free to open an issue on github or join our discord here: https://discord.gg/rqW2uEB) 
