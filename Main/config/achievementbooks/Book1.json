@@ -1,0 +1,61 @@
+{
+	"itemName": "ms_book",
+	"Mystical Survial Quests": "Welcome! To Mystical Survival",
+	"color": "purple",
+	"craftingMaterial": "minecraft:leather",
+	"pages": [
+		[
+			{
+				"id": 1,
+				"header": "Welcome to the Mystical Survial",
+				"description": "This the offical achivment book of Mystical Survival\n"
+			},
+			{
+				"id": 2,
+				"description": "Story Here"
+			}
+		],
+		[
+			{
+				"id": 3,
+				"header": "Getting Started"
+			},
+			{
+				"id": 4,
+				"achievement": "Craft a hammer, sieve, and a mesh -Maybe the roots will help you-",
+				"mod": "Ex Nihlo"
+			},
+			{
+				"id": 5,
+				"achievement": "Smelt gold dust into ingot, along with 5 iron",
+				"mod": "vanilla"
+			},
+			{
+				"id": 6,
+				"achievement": "Craft a tinkers pickaxe, using iron, wood, and paper",
+				"mod": "Tinkers Construct"
+			}
+		],
+		[
+			{
+				"id": 7,
+				"header": "Second Things Second"
+			},
+			{
+				"id": 8,
+				"achievement": "Craft a mana pool, and fill it",
+				"mod": "Botania"
+			},
+			{
+				"id": 9,
+				"achievement": "Change the wording of achievement id 4 in the Achievement Book Demo",
+				"mod": "Achievement Books"
+			},
+			{
+				"id": 10,
+				"achievement": "Reorder the achievements on page 2 of the Achievement Book Demo",
+				"mod": "Achievement Books"
+			}
+		]
+	]
+}

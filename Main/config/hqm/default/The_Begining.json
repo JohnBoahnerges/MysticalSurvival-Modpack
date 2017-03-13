@@ -1,0 +1,323 @@
+{
+  "name": "The Begining",
+  "quests": [
+    {
+      "uuid": "77d98c26-cae7-4ae6-be0c-21508a13db96",
+      "name": "Diamonds",
+      "description": "       ",
+      "x": 21,
+      "y": 128,
+      "prerequisites": [
+        "f5c797e5-9dea-47c5-8cd6-77a3cd86a8ba"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "amount": 2
+        },
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "lootbags:itemlootbag",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "357aa636-c216-415e-b3a2-c2d511d9f3c1",
+      "name": "Unnamed",
+      "x": 85,
+      "y": 191,
+      "prerequisites": [
+        "0c780b93-6d28-42c3-b4c0-c02382abc7df"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0bdbd1b7-879e-4d06-84c9-1d21fd6ccee7",
+      "name": "We have tools!",
+      "description": "TOOLS!!!!",
+      "x": 70,
+      "y": 30,
+      "icon": {
+        "id": "roots:livingPickaxe"
+      },
+      "prerequisites": [
+        "45e46c7f-c852-46c1-839a-2e893ba19faa"
+      ],
+      "tasks": [
+        {
+          "type": "CONSUME",
+          "items": [
+            {
+              "item": {
+                "id": "tconstruct:pickaxe",
+                "nbt": "{StatsOriginal:{AttackSpeedMultiplier:1.0f,MiningSpeed:4.0f,FreeModifiers:3,Durability:20,HarvestLevel:1,Attack:3.0f},Stats:{AttackSpeedMultiplier:1.0f,MiningSpeed:4.0f,FreeModifiers:3,Durability:16,HarvestLevel:1,Attack:3.0f},Special:{Categories:[0:\"harvest\",1:\"tool\"]},TinkerData:{Materials:[0:\"stone\",1:\"stone\",2:\"stone\"],Modifiers:[0:\"toolleveling\"]},Modifiers:[0:{identifier:\"cheap\",color:-6710887,level:1},1:{identifier:\"cheapskate\",color:-6710887,level:1},2:{identifier:\"toolleveling\",color:16777215,level:1}],Traits:[0:\"cheap\",1:\"cheapskate\",2:\"toolleveling\"]}"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:iron_pickaxe"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "lootbags:itemlootbag"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8b2713b1-c0fa-41fb-88cf-2c9e7c77e770",
+      "name": "Unnamed",
+      "x": 143,
+      "y": 21,
+      "prerequisites": [
+        "ef0cd1b9-bb25-4a77-b4be-3f324a9383a4"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "d9cdaecf-ac4a-48e8-be0e-59b78ea9012b",
+      "name": "Unnamed",
+      "x": 108,
+      "y": 74,
+      "prerequisites": [
+        "5967d1b0-6ebd-4c5f-bc22-7d26f3026456"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b591b5df-a568-47e4-8f44-dd0814504561",
+      "name": "Can you even?",
+      "description": " ",
+      "x": 38,
+      "y": 57,
+      "icon": {
+        "id": "exnihiloomnia:infested_leaves"
+      },
+      "prerequisites": [
+        "45e46c7f-c852-46c1-839a-2e893ba19faa"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "exnihiloomnia:ore_broken"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "exnihiloomnia:ore_broken",
+                "damage": 1
+              },
+              "required": 4
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:furnace"
+        },
+        {
+          "id": "hardcorequesting:bags"
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags"
+        },
+        {
+          "id": "lootbags:itemlootbag"
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "45e46c7f-c852-46c1-839a-2e893ba19faa",
+      "name": "The Start",
+      "description": "Just to get started",
+      "x": 19,
+      "y": 11,
+      "bigicon": true,
+      "icon": {
+        "id": "exnihiloomnia:hammer_stone"
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "exnihiloomnia:sieve_wood"
+              }
+            },
+            {
+              "item": {
+                "id": "exnihiloomnia:mesh_silk_white"
+              }
+            },
+            {
+              "item": {
+                "id": "exnihiloomnia:hammer_stone"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "minecraft:dirt",
+          "amount": 16
+        },
+        {
+          "id": "exnihiloomnia:dust",
+          "amount": 16
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "extrautils2:compressedcobblestone",
+          "damage": 2
+        },
+        {
+          "id": "extrautils2:compressedsand",
+          "damage": 1,
+          "amount": 9
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "6b69dd3c-8df6-4e09-97d2-25dfd19f0f01",
+      "name": "Unnamed",
+      "x": 21,
+      "y": 163,
+      "prerequisites": [
+        "77d98c26-cae7-4ae6-be0c-21508a13db96"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "5967d1b0-6ebd-4c5f-bc22-7d26f3026456",
+      "name": "Flowers, Flour and Flowers",
+      "description": "Maybe you can do this?",
+      "x": 89,
+      "y": 49,
+      "prerequisites": [
+        "0bdbd1b7-879e-4d06-84c9-1d21fd6ccee7"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "f5c797e5-9dea-47c5-8cd6-77a3cd86a8ba",
+      "name": "This? Already?",
+      "description": "What is that again?",
+      "x": 36,
+      "y": 93,
+      "icon": {
+        "id": "projecte:item.pe_philosophers_stone"
+      },
+      "prerequisites": [
+        "b591b5df-a568-47e4-8f44-dd0814504561"
+      ],
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:glowstone_dust"
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "minecraft:diamond"
+              }
+            }
+          ]
+        }
+      ],
+      "reward": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 2
+        },
+        {
+          "id": "tconstruct:slime_boots",
+          "damage": 3
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "hardcorequesting:bags",
+          "damage": 1
+        },
+        {
+          "id": "lootbags:itemlootbag",
+          "damage": 1
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ef0cd1b9-bb25-4a77-b4be-3f324a9383a4",
+      "name": "Unnamed",
+      "x": 133,
+      "y": 54,
+      "prerequisites": [
+        "d9cdaecf-ac4a-48e8-be0e-59b78ea9012b"
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "0c780b93-6d28-42c3-b4c0-c02382abc7df",
+      "name": "Unnamed",
+      "x": 48,
+      "y": 184,
+      "prerequisites": [
+        "6b69dd3c-8df6-4e09-97d2-25dfd19f0f01"
+      ],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": []
+}
